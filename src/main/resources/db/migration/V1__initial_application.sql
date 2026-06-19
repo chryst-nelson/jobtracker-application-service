@@ -1,4 +1,4 @@
-CREATE TABLE job_applications (
+CREATE TABLE IF NOT EXISTS job_applications (
     id BIGSERIAL PRIMARY KEY,
     user_id BIGINT NOT NULL,
     company_name VARCHAR(100) NOT NULL,
